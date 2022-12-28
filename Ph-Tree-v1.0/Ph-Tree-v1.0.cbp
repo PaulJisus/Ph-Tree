@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ph-Tree-v1.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ph-Tree-v1.0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ph-Tree-v1.0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="b_plus_tree_base.h" />
+		<Unit filename="b_plus_tree_hash_map.h" />
+		<Unit filename="b_plus_tree_map.h" />
+		<Unit filename="b_plus_tree_multimap.h" />
+		<Unit filename="base_types.h" />
+		<Unit filename="bits.h" />
+		<Unit filename="common.h" />
+		<Unit filename="converter.h" />
+		<Unit filename="debug_helper.h" />
+		<Unit filename="debug_helper_v16.h" />
+		<Unit filename="distance.h" />
+		<Unit filename="entry.h" />
+		<Unit filename="filter.h" />
+		<Unit filename="flat_array_map.h" />
+		<Unit filename="flat_sparse_map.h" />
+		<Unit filename="for_each.h" />
+		<Unit filename="for_each_hc.h" />
+		<Unit filename="iterator_base.h" />
+		<Unit filename="iterator_full.h" />
+		<Unit filename="iterator_hc.h" />
+		<Unit filename="iterator_knn_hs.h" />
+		<Unit filename="iterator_with_parent.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="node.h" />
+		<Unit filename="phtree.h" />
+		<Unit filename="phtree_multimap.h" />
+		<Unit filename="phtree_v16.h" />
+		<Unit filename="tree_stats.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

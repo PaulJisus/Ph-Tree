@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ph-Tree" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ph-Tree" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ph-Tree" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Entry.h" />
+		<Unit filename="PHTree.h" />
+		<Unit filename="iterators/AHCIterator.h" />
+		<Unit filename="iterators/LHCIterator.h" />
+		<Unit filename="iterators/NodeIterator.h" />
+		<Unit filename="iterators/RangeQueryIterator.h" />
+		<Unit filename="iterators/RangeQueryStackContent.h" />
+		<Unit filename="libmorton/include/morton.h" />
+		<Unit filename="libmorton/include/morton2D.h" />
+		<Unit filename="libmorton/include/morton2D_LUTs.h" />
+		<Unit filename="libmorton/include/morton3D.h" />
+		<Unit filename="libmorton/include/morton3D_LUTs.h" />
+		<Unit filename="libmorton/include/morton_BMI.h" />
+		<Unit filename="libmorton/include/morton_LUT_generators.h" />
+		<Unit filename="libmorton/include/morton_common.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="nodes/AHC.h" />
+		<Unit filename="nodes/LHC.h" />
+		<Unit filename="nodes/Node.h" />
+		<Unit filename="nodes/NodeAddressContent.h" />
+		<Unit filename="nodes/SuffixStorage.h" />
+		<Unit filename="nodes/TNode.h" />
+		<Unit filename="nodes/TSuffixStorage.h" />
+		<Unit filename="util/DeletedNodes.h" />
+		<Unit filename="util/DynamicNodeOperationsUtil.h" />
+		<Unit filename="util/EntryBuffer.h" />
+		<Unit filename="util/EntryBufferPool.h" />
+		<Unit filename="util/EntryTreeMap.h" />
+		<Unit filename="util/FileInputUtil.h" />
+		<Unit filename="util/InsertionThreadPool.h" />
+		<Unit filename="util/MultiDimBitset.h" />
+		<Unit filename="util/NodeTypeUtil.h" />
+		<Unit filename="util/PlotUtil.h" />
+		<Unit filename="util/RandUtil.h" />
+		<Unit filename="util/RangeQueryThreadPool.h" />
+		<Unit filename="util/RangeQueryUtil.h" />
+		<Unit filename="util/ResultStorage.h" />
+		<Unit filename="util/SpatialSelectionOperationsUtil.h" />
+		<Unit filename="util/TEntryBuffer.h" />
+		<Unit filename="util/compare/ParallelRangeQueryScan.h" />
+		<Unit filename="util/compare/RTreeBulkWrapper.h" />
+		<Unit filename="util/rdtsc.h" />
+		<Unit filename="visitors/AssertionVisitor.h" />
+		<Unit filename="visitors/CountNodeTypesVisitor.h" />
+		<Unit filename="visitors/PrefixSharingVisitor.h" />
+		<Unit filename="visitors/SizeVisitor.h" />
+		<Unit filename="visitors/SuffixVisitor.h" />
+		<Unit filename="visitors/Visitor.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
